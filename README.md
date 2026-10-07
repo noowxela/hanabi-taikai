@@ -4,6 +4,8 @@ A pixel-art 3D browser game. Walk a Japanese campfire-festival town, sit on the 
 
 The page title is 营火会小镇. Saves live in `localStorage` under keys prefixed `hanabi-taikai.`.
 
+Play it at https://noowxela.github.io/hanabi-taikai/. A push to `main` builds the site and publishes that page.
+
 ## Run
 
 Requires Node.js 20.19+ (or 22.12+).
