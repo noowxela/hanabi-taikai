@@ -1,0 +1,21 @@
+{
+  "name": "hanabi-taikai",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host",
+    "check": "tsc --noEmit",
+    "solve:train": "node --experimental-strip-types --no-warnings scripts/solve-train.ts"
+  },
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.186.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.7"
+  }
+}
